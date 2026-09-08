@@ -3,6 +3,7 @@ import { ArrowRight, Mail } from 'lucide-react';
 import { FaWhatsapp } from 'react-icons/fa6';
 import { SiGithub } from 'react-icons/si';
 import { portfolioData } from '../data/portfolioData';
+import profileImage from '../assets/profile.jpg';
 
 export default function Hero() {
   const { personal } = portfolioData;
@@ -121,7 +122,7 @@ export default function Hero() {
                 <div className="aspect-4/5 w-full bg-white/50 backdrop-blur-xs rounded-2xl overflow-hidden border border-slate-200/80 flex flex-col items-center justify-center text-center relative group">
                   {!imgError ? (
                     <img
-                      src="/src/assets/profile.jpg"
+                      src={profileImage}
                       alt="Alfina Mazidatul Mufidah"
                       onError={() => setImgError(true)}
                       className="w-full h-full object-cover rounded-2xl"
