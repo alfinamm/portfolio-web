@@ -202,6 +202,18 @@ export const portfolioData = {
     },
     {
       id: "project-5",
+      category: "DATA ANALYTICS & DATA MINING",
+      title: "Credit Card Customer Segmentation",
+      description: "Menganalisis perilaku penggunaan kartu kredit dari 8.950 pelanggan menggunakan Python dan K-Means Clustering untuk mengidentifikasi karakteristik serta segmentasi pelanggan berdasarkan pola transaksi, penggunaan kredit, dan pembayaran.",
+      tools: ["Python", "Pandas", "Scikit-learn", "K-Means"],
+      buttonText: "View Project",
+      link: "https://github.com/alfinamm/credit-card-customer-segmentation",
+      overview: "Project analisis dan segmentasi pelanggan menggunakan metode K-Means Clustering yang mencakup data cleaning, exploratory data analysis, feature engineering, feature scaling, hingga evaluasi dan profiling hasil cluster.",
+      projectFocus: "Mengidentifikasi pola perilaku pelanggan dan membentuk empat segmentasi berdasarkan aktivitas pembelian, cash advance, frekuensi transaksi, credit limit, serta pola pembayaran."
+    },
+
+    {
+      id: "project-6",
       category: "UI/UX DESIGN",
       title: "UI/UX Design",
       description: "Proyek desain antarmuka dan pengalaman pengguna (UI/UX). Detail deskripsi dan aset visual tampilan akan diperbarui.",
